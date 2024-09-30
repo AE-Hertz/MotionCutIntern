@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <!--- basic page needs
+    ================================================== -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Cricket Legends Hub</title>
+
+        <script>
+            document.documentElement.classList.remove("no-js");
+            document.documentElement.classList.add("js");
+        </script>
+
+        <!-- CSS
+    ================================================== -->
+        <link rel="stylesheet" href="css/vendor.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+
+        <!-- favicons
+    ================================================== -->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="favicon-16x16.png"
+        />
+        <link rel="manifest" href="site.webmanifest" />
+    </head>
+
+    <body id="top">
+        <!-- preloader
+    ================================================== -->
+        <div id="preloader">
+            <div id="loader" class="dots-fade">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <!-- page wrap
+    ================================================== -->
+        <div id="page" class="s-pagewrap">
+            <!-- # site header 
+        ================================================== -->
+            <header class="s-header">
+                <div class="row s-header__inner">
+                    <div class="s-header__block">
+                        <div class="s-header__logo">
+                            <a class="logo" href="index.html">
+                                <img src="images/logo.svg" alt="Homepage" />
+                            </a>
+                        </div>
+
+                        <a class="s-header__menu-toggle" href="#0"
+                            ><span>Menu</span></a
+                        >
+                    </div>
+                    <!-- end s-header__block -->
+
+                    <nav class="s-header__nav">
+                        <ul class="s-header__menu-links">
+                            <li class="current">
+                                <a class="smoothscroll" href="#intro">Intro</a>
+                            </li>
+                            <li>
+                                <a class="smoothscroll" href="#about">About</a>
+                            </li>
+                            <li>
+                                <a class="smoothscroll" href="#works">Works</a>
+                            </li>
+                            <li>
+                                <a class="smoothscroll" href="#footer"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                        <!-- s-header__menu-links -->
+                    </nav>
+                    <!-- end s-header__nav -->
+                </div>
+                <!-- end s-header__inner -->
+            </header>
+            <!-- end s-header -->
+
+            <!-- # intro
+        ================================================== -->
+            <section id="intro" class="s-intro target-section">
+                <div class="row s-intro__content width-sixteen-col">
+                    <div
+                        class="column lg-12 s-intro__content-inner grid-block grid-16"
+                    >
+                        <div class="s-intro__content-text">
+                            <div
+                                class="s-intro__content-pretitle text-pretitle"
+                            >
+                                This is
+                            </div>
+                            <h1 class="s-intro__content-title">
+                                Sachin Tendulkar <br />
+                                a legendary Indian cricketer <br />
+                                from India.
+                            </h1>
+
+                            <div class="s-intro__content-btns">
+                                <a class="smoothscroll btn" href="#about"
+                                    >More About Me</a
+                                >
+                                <a
+                                    class="smoothscroll btn btn--stroke"
+                                    href="#footer"
+                                    >Get In Touch</a
+                                >
+                            </div>
+                            <!-- s-intro__content-btns -->
+                        </div>
+                        <!-- s-intro__content-text -->
+                    </div>
+                    <!-- s-intro__content-inner -->
+                </div>
+                <!-- s-intro__content -->
+
+                <ul class="s-intro__social social-list">
+                    <li>
+                        <a href="https://www.facebook.com/SachinTendulkar/">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                style="
+                                    fill: rgba(0, 0, 0, 1);
+                                    transform: ;
+                                    -ms-filter: ;
+                                "
+                            >
+                                <path
+                                    d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"
+                                ></path>
+                            </svg>
+                            <span class="u-screen-reader-text">Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://x.com/sachin_rt?lang=en">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                style="
+                                    fill: rgba(0, 0, 0, 1);
+                                    transform: ;
+                                    -ms-filter: ;
+                                "
+                            >
+                                <path
+                                    d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809 c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793 c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05 c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032 c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028 c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22 c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"
+                                ></path>
+                            </svg>
+                            <span class="u-screen-reader-text">Twitter</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.instagram.com/sachintendulkar/?hl=en"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                style="
+                                    fill: rgba(0, 0, 0, 1);
+                                    transform: ;
+                                    -ms-filter: ;
+                                "
+                            >
+                                <path
+                                    d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"
+                                ></path>
+                                <circle
+                                    cx="16.806"
+                                    cy="7.207"
+                                    r="1.078"
+                                ></circle>
+                                <path
+                                    d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"
+                                ></path>
+                            </svg>
+                            <span class="u-screen-reader-text">Instagram</span>
+                        </a>
+                    </li>
+                </ul>
+                <!-- end s-intro__social -->
+
+                <div class="s-intro__content-media">
+                    <img
+                        src="images/folio/top0.jpg"
+                        srcset="
+                            images/folio/top0.jpg 1x,
+                            images/folio/top0.jpg 2x
+                        "
+                        alt=""
+                    />
+                </div>
+                <!-- s-intro__content-media -->
+
+                <div class="s-intro__btn-download">
+                    <a
+                        class="btn btn--stroke"
+                        href="https://en.wikipedia.org/wiki/Sachin_Tendulkar"
+                        >Know More</a
+                    >
+                </div>
+                <!-- end s-intro__btn-download -->
+
+                <div class="s-intro__scroll-down">
+                    <a href="#about" class="smoothscroll">
+                        <div class="scroll-icon">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                style="
+                                    fill: rgba(0, 0, 0, 1);
+                                    transform: ;
+                                    msfilter: ;
+                                "
+                            >
+                                <path
+                                    d="M11.178 19.569a.998.998 0 0 0 1.644 0l9-13A.999.999 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13z"
+                                ></path>
+                            </svg>
+                        </div>
+                        <span class="scroll-text u-screen-reader-text"
+                            >Scroll Down</span
+                        >
+                    </a>
+                </div>
+                <!-- s-intro__scroll-down -->
+            </section>
+            <!-- end s-intro -->
+
+            <!-- # about
+        ================================================== -->
+            <section id="about" class="s-about target-section">
+                <div class="row s-about__content">
+                    <div class="column xl-12">
+                        <div class="section-header" data-num="01">
+                            <h2 class="text-display-title">About Him.</h2>
+                        </div>
+                        <!-- end section-header -->
+
+                        <p class="attention-getter">
+                            Sachin Tendulkar, born on April 24, 1973, in Mumbai,
+                            India, is often regarded as one of the greatest
+                            cricketers of all time. His journey in cricket began
+                            at a young age, making his international debut for
+                            India at just 16 years old. Over a career that
+                            spanned 24 years, Tendulkar set numerous records,
+                            including being the first player to score 100
+                            international centuries and the first to accumulate
+                            over 34,000 runs across all formats. His exquisite
+                            technique, combined with an insatiable hunger for
+                            runs, allowed him to excel in both Test matches and
+                            One Day Internationals (ODIs). He played a pivotal
+                            role in many historic victories for India, including
+                            the country’s triumph in the 2011 ICC Cricket World
+                            Cup, solidifying his legacy as a cricketing icon.
+                        </p>
+
+                        <p class="attention-getter">
+                            Beyond his remarkable achievements on the field,
+                            Tendulkar is known for his humility and
+                            sportsmanship. He has inspired millions of fans
+                            worldwide not just through his records, but also
+                            through his philanthropic efforts and dedication to
+                            the sport. After retiring in 2013, Tendulkar
+                            continued to contribute to cricket as a mentor and
+                            advisor, promoting the game among the younger
+                            generation. His influence extends beyond cricket,
+                            making him a beloved figure in Indian culture and a
+                            role model for aspiring athletes globally.
+                        </p>
+
+                        <div class="grid-list-items s-about__blocks">
+                            <div class="grid-list-items__item s-about__block">
+                                <h4 class="s-about__block-title">Experience</h4>
+                                <ul class="s-about__list">
+                                    <li>
+                                        International Debut
+                                        <span>November 15, 1989</span>
+                                    </li>
+                                    <li>
+                                        First Double Century in Tests
+                                        <span>February 24, 2008</span>
+                                    </li>
+                                    <li>
+                                        100 International Centuries
+                                        <span>March 16, 2012</span>
+                                    </li>
+                                    <li>
+                                        2011 ICC Cricket World Cup Victory
+                                        <span>Scoring 482 runs</span>
+                                    </li>
+                                    <li>
+                                        Retirement and Last Test Match
+                                        <span>December 23, 2012</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--end s-about__block -->
+
+                            <div class="grid-list-items__item s-about__block">
+                                <h4 class="s-about__block-title">Awards</h4>
+
+                                <ul class="s-about__list">
+                                    <li>
+                                        <a href="#0">
+                                            Bharat Ratna
+                                            <span>2014</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">
+                                            Rajiv Gandhi Khel Ratna Award
+                                            <span>1997-98</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">
+                                            Padma Bhushan
+                                            <span>2008</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">
+                                            ICC Cricket World Cup Player of the
+                                            Tournament
+                                            <span>2003</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">
+                                            Wisden Cricketers of the Century
+                                            <span>2000</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--end s-about__block -->
+
+                            <div class="grid-list-items__item s-about__block">
+                                <h4 class="s-about__block-title">Skills</h4>
+
+                                <ul class="s-about__list">
+                                    <li>Technical Proficiency</li>
+                                    <li>Concentration and Focus</li>
+                                    <li>Adaptability</li>
+                                    <li>Strategic Thinking</li>
+                                    <li>Footwork</li>
+                                    <li>Mental Toughness</li>
+                                </ul>
+                            </div>
+                            <!--end s-about__block -->
+                        </div>
+                        <!-- grid-list-items -->
+                    </div>
+                    <!--end column -->
+                </div>
+                <!--end s-about__content -->
+            </section>
+            <!-- end s-about -->
+
+            <!-- # works
+        ================================================== -->
+            <section id="works" class="s-works target-section">
+                <div class="row">
+                    <div class="column xl-12">
+                        <div class="section-header" data-num="02">
+                            <h2 class="text-display-title">Top Matches.</h2>
+                        </div>
+                        <!-- end section-header -->
+                    </div>
+                </div>
+
+                <div class="row folio-entries">
+                    <div class="column entry">
+                        <a
+                            href="images/folio/top1.avif"
+                            class="entry__link glightbox"
+                            data-glightbox="title: 1998; description: .entry__desc-01"
+                        >
+                            <div class="entry__thumb">
+                                <img
+                                    src="images/folio/top1.avif"
+                                    srcset="
+                                        images/folio/top1.avif 1x,
+                                        images/folio/top1.avif 2x
+                                    "
+                                    alt=""
+                                />
+                            </div>
+                            <div class="entry__info">
+                                <h4 class="entry__title">
+                                    143 & 134 vs Australia, Sharjah
+                                </h4>
+                                <div class="entry__cat">1998 (ODI)</div>
+                            </div>
+                        </a>
+
+                        <div class="glightbox-desc entry__desc-01">
+                            <p>
+                                An innings popularly known as 'Desert Storm' had
+                                all the features of what can be called great
+                                batting. The Australian attack had Shane Warne,
+                                Damien Fleming, and Michale Kasprowicz. Sachin
+                                played with remarkable exuberance. He hit nine
+                                fours and five sixes to score 143 runs in just
+                                131 deliveries.
+                                <a
+                                    href="https://www.newindianexpress.com/sport/cricket/2021/Apr/22/on-this-day-in-1998-sachin-tendulkar-desert-storm-rocks-australia-in-sharjah-2293273.html/"
+                                    >Read More</a
+                                >.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- entry -->
+
+                    <div class="column entry">
+                        <a
+                            href="images/folio/top2.jpg"
+                            class="entry__link glightbox"
+                            data-glightbox="title: 1999; description: .entry__desc-02"
+                        >
+                            <div class="entry__thumb">
+                                <img
+                                    src="images/folio/top2.jpg"
+                                    srcset="
+                                        images/folio/top2.jpg 1x,
+                                        images/folio/top2.jpg 2x
+                                    "
+                                    alt=""
+                                />
+                            </div>
+                            <div class="entry__info">
+                                <h4 class="entry__title">
+                                    140 vs Kenya, Bristol
+                                </h4>
+                                <div class="entry__cat">1999 (ODI)</div>
+                            </div>
+                        </a>
+
+                        <div class="glightbox-desc entry__desc-02">
+                            <p>
+                                Scoring 140 against a weak opponent like Kenya
+                                is not a performance that fans and critics
+                                generally talk about. However, Sachin's personal
+                                circumstances made this innings memorable.
+                                Sachin's father had passed away and he returned
+                                to India for the funeral. However, the very next
+                                day in the match against Kenya, when a
+                                teary-eyed Tendulkar lifted his bat to the sky
+                                after scoring the century, the world took notice
+                                and applauded his courage and resolve.
+                                <a
+                                    href="https://www.newindianexpress.com/sport/icc-world-cup/world-cup-countdown/2019/May/24/six-days-o-world-cup-sachin-tendulkars-record-of-most-centuries-1981323.html"
+                                    >Read More</a
+                                >.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- entry -->
+
+                    <div class="column entry">
+                        <a
+                            href="images/folio/top3.avif"
+                            class="entry__link glightbox"
+                            data-glightbox="title: 2003; description: .entry__desc-03"
+                        >
+                            <div class="entry__thumb">
+                                <img
+                                    src="images/folio/top3.avif"
+                                    srcset="
+                                        images/folio/top3.avif 1x,
+                                        images/folio/top3.avif 2x
+                                    "
+                                    alt=""
+                                />
+                            </div>
+                            <div class="entry__info">
+                                <h4 class="entry__title">
+                                    98 vs Pakistan, Centurion
+                                </h4>
+                                <div class="entry__cat">
+                                    2003 World Cup (ODI)
+                                </div>
+                            </div>
+                        </a>
+
+                        <div class="glightbox-desc entry__desc-03">
+                            <p>
+                                When India came out to chase 273 against
+                                Pakistan, a cautious start to the innings was
+                                expected from the duo of Sachin and Virendra
+                                Sehwag. However, they had different plans. They
+                                smashed the likes of Shoaib Akhtar and Wasim
+                                Akram all over the park. The most memorable
+                                moment came when Sachin played a lofted square
+                                cut over third-man for a six. It went on to
+                                become one of the most iconic shots. Sachin
+                                played with great finesse and helped India chase
+                                down the target easily. He got injured during
+                                the match and missed his ton by two runs. During
+                                the innings, he also reached the milestone of
+                                12,000 ODI runs.
+                                <a
+                                    href="https://www.newindianexpress.com/sport/cricket/2020/Nov/22/sachin-tendulkars-98-against-pakistan-in-2003-world-cup-one-of-his-best-says-inzamam-ul-haq-2226611.html"
+                                    >Read More</a
+                                >.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- entry -->
+
+                    <div class="column entry">
+                        <a
+                            href="images/folio/top4.avif"
+                            class="entry__link glightbox"
+                            data-glightbox="title: 2010; description: .entry__desc-04"
+                        >
+                            <div class="entry__thumb">
+                                <img
+                                    src="images/folio/top4.avif"
+                                    srcset="
+                                        images/folio/top4.avif 1x,
+                                        images/folio/top4.avif 2x
+                                    "
+                                    alt=""
+                                />
+                            </div>
+                            <div class="entry__info">
+                                <h4 class="entry__title">
+                                    200* vs South Africa, Gwalior
+                                </h4>
+                                <div class="entry__cat">2010 (ODI)</div>
+                            </div>
+                        </a>
+
+                        <div class="glightbox-desc entry__desc-04">
+                            <p>
+                                In an ODI match against India in 1997, the
+                                flamboyant Pakistani opener Saeed Anwar smashed
+                                194 runs, creating a new world record. 12 years
+                                later, Charles Coventry of Zimbabwe scored 194
+                                not out against Bangladesh. But the milestone of
+                                scoring the first-ever double hundred in ODIs
+                                was waiting for Sachin Tendulkar. Finally, in
+                                2010, Tendulkar achieved the unthinkable against
+                                South Africa in Gwalior. While several other
+                                cricketers, including four Indians, broke the
+                                200-run barrier, it was the God of the game who
+                                made everyone believe that the feat was indeed
+                                achievable.
+                                <a
+                                    href="https://www.newindianexpress.com/sport/cricket/2010/Dec/12/sachins-odi-200-in-times-top-10-sports-moments-210391.html"
+                                    >Read More</a
+                                >.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- entry -->
+
+                    <div class="column entry">
+                        <a
+                            href="images/folio/top5.jpg"
+                            class="entry__link glightbox"
+                            data-glightbox="title: 2004; description: .entry__desc-05"
+                        >
+                            <div class="entry__thumb">
+                                <img
+                                    src="images/folio//top5.jpg"
+                                    srcset="
+                                        images/folio//top5.jpg 1x,
+                                        images/folio//top5.jpg 2x
+                                    "
+                                    alt=""
+                                    style="width: 800px; height: 393px"
+                                />
+                            </div>
+                            <div class="entry__info">
+                                <h4 class="entry__title">241* vs Australia</h4>
+                                <div class="entry__cat">Sydney 2004 (Test)</div>
+                            </div>
+                        </a>
+
+                        <div class="glightbox-desc entry__desc-05">
+                            <p>
+                                Even legends like Tendulkar go through rough
+                                patches. During the Border-Gavaskar Trophy of
+                                2002-03, Sachin was struggling with deliveries
+                                outside the off stump. He was edging the ball to
+                                slips and was not scoring enough runs. Facing
+                                heavy criticism and being questioned on his
+                                technique, Sachin decided to make a 'minor'
+                                change. In the 4th Test of the series being
+                                played in Sydney, Sachin decided against playing
+                                any shot on the off side. Sounds unbelievable
+                                but the Master Blaster did not play a single
+                                cover drive during his entire innings. He went
+                                on to score 241 not out. The innings is nothing
+                                short of a case study for anyone who wants to
+                                learn about controlling natural instincts and
+                                focussing on playing according to the situation.
+                                That was an innings of defiance and grit.
+                                <a
+                                    href="https://www.newindianexpress.com/sport/cricket/2023/Apr/23/sachin-is-technically-the-best-batter-that-ive-ever-seen-and-played-with-or-against-ricky-ponting-2568635.html"
+                                    >Read More</a
+                                >.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- entry -->
+
+                    <div class="column entry">
+                        <a
+                            href="images/folio/top6.webp"
+                            class="entry__link glightbox"
+                            data-glightbox="title: 2009; description: .entry__desc-06"
+                        >
+                            <div class="entry__thumb">
+                                <img
+                                    src="images/folio/top6.webp"
+                                    srcset="
+                                        images/folio/top6.webp 1x,
+                                        images/folio/top6.webp 2x
+                                    "
+                                    alt=""
+                                />
+                            </div>
+                            <div class="entry__info">
+                                <h4 class="entry__title">
+                                    175 vs Australia, Hyderabad
+                                </h4>
+                                <div class="entry__cat">2009 (ODI)</div>
+                            </div>
+                        </a>
+
+                        <div class="glightbox-desc entry__desc-06">
+                            <p>
+                                What were the rest doing? That was the statement
+                                from former Indian captain Sourav Ganguly when
+                                India failed to chase 351 against Australia,
+                                where Sachin scored 175. He single-handedly took
+                                India to the brink of victory. In his amazing
+                                effort, he hit 19 fours and four sixes. However,
+                                India kept losing wickets at the other end and
+                                India lost the match by three runs.
+                                <a
+                                    href="https://www.newindianexpress.com/sport/cricket/2009/Nov/07/sachins-175-in-vain-as-india-falter-in-5th-odi-101933.html"
+                                    >Read More</a
+                                >.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- entry -->
+                </div>
+                <!-- folio entries -->
+            </section>
+            <!-- end s-works -->
+
+            <!-- # numbers
+        ================================================== -->
+            <section id="numbers" class="s-numbers">
+                <div class="row counter-items">
+                    <div class="column counter-items__item">
+                        <div class="num">
+                            34,357
+                            <span>+</span>
+                        </div>
+                        <h5>Runs</h5>
+                        <p>
+                            Sachin Tendulkar holds the record for the most runs
+                            scored in international cricket, amassing a total of
+                            34,357 runs across all formats (Tests, ODIs, and
+                            T20Is). This remarkable achievement highlights his
+                            consistency and longevity in the sport.
+                        </p>
+                    </div>
+                    <!-- end counter-items__item -->
+
+                    <div class="column counter-items__item">
+                        <div class="num">
+                            100
+                            <span>+</span>
+                        </div>
+                        <h5>International Centuries</h5>
+                        <p>
+                            Tendulkar is the first cricketer to score 100
+                            international centuries (51 in Tests and 49 in
+                            ODIs). This record underscores his ability to
+                            convert starts into significant scores and showcases
+                            his dominance over bowlers throughout his career.
+                        </p>
+                    </div>
+                    <!-- end counter-items__item -->
+
+                    <div class="column counter-items__item">
+                        <div class="num">
+                            18,426
+                            <span>+</span>
+                        </div>
+                        <h5>ODI Runs</h5>
+                        <p>
+                            He is the highest run-scorer in One Day
+                            Internationals, with 18,426 runs in 463 matches.
+                            This statistic reflects his extraordinary
+                            performance and impact in the limited-overs format.
+                        </p>
+                    </div>
+                    <!-- end counter-items__item -->
+
+                    <div class="column counter-items__item">
+                        <div class="num">
+                            2
+                            <span>+</span>
+                        </div>
+                        <h5>Centuries</h5>
+                        <p>
+                            On February 24, 2010, Tendulkar became the first
+                            player to score a double century in ODIs, achieving
+                            200 runs against South Africa. This milestone marked
+                            a significant moment in ODI cricket, showcasing his
+                            capability to score big in shorter formats.
+                        </p>
+                    </div>
+                    <!-- end counter-items__item -->
+                </div>
+                <!-- end counter-items -->
+            </section>
+            <!-- end s-numbers -->
+
+            <!-- # footer 
+        ================================================== -->
+            <footer id="footer" class="s-footer target-section">
+                <div class="row">
+                    <div class="column lg-12">
+                        <div class="section-header light-on-dark" data-num="03">
+                            <h2 class="text-display-title">Get In Touch.</h2>
+                        </div>
+                        <!-- end section-header -->
+                    </div>
+                </div>
+
+                <div class="row s-footer__content">
+                    <div
+                        class="column xl-6 md-12 s-footer__block s-footer__about"
+                    >
+                        <p class="attention-getter">
+                            I am a FullStack developer and a Artificial
+                            Intelligence Student :)
+                        </p>
+                    </div>
+                    <!-- end section-footer__about -->
+
+                    <div
+                        class="column xl-6 md-12 s-footer__block s-footer__site-links"
+                    >
+                        <div class="row">
+                            <div class="column xl-4 lg-5 md-6 tab-12">
+                                <h5>Follow Me</h5>
+                                <ul class="link-list">
+                                    <li><a href="#0">Facebook</a></li>
+                                    <li><a href="#0">Twitter</a></li>
+                                    <li><a href="#0">Instagram</a></li>
+                                </ul>
+                            </div>
+                            <div class="column xl-6 md-6 tab-12">
+                                <h5>Contact Me</h5>
+                                <ul class="link-list">
+                                    <li>
+                                        <a
+                                            href="https://hertz-portfolio.vercel.app/"
+                                            >gotomyPortFolio</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://hertz-portfolio.vercel.app/"
+                                            >+91 XXXXXXX🫠</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end section-footer__site-links -->
+                </div>
+                <!-- end section-footer__content -->
+
+                <div class="row s-footer__buttons">
+                    <div class="column xl-6 tab-12">
+                        <a
+                            href="https://hertz-portfolio.vercel.app/"
+                            class="btn btn--primary btn--large u-fullwidth"
+                            >Message Me</a
+                        >
+                    </div>
+
+                    <div class="column xl-6 tab-12">
+                        <a
+                            href="https://hertz-portfolio.vercel.app/"
+                            class="btn btn--stroke btn--large u-fullwidth"
+                            >Know More about ME</a
+                        >
+                    </div>
+                </div>
+                <!-- end section-footer__buttons -->
+
+                <div class="row s-footer__bottom">
+                    <div class="column xl-6 lg-12">
+                        <ul class="s-footer__social social-list">
+                            <li>
+                                <a
+                                    href="https://www.facebook.com/people/Playinhertz-Gaming/100069576650461/"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        style="
+                                            fill: rgba(0, 0, 0, 1);
+                                            transform: ;
+                                            -ms-filter: ;
+                                        "
+                                    >
+                                        <path
+                                            d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"
+                                        ></path>
+                                    </svg>
+                                    <span class="u-screen-reader-text"
+                                        >Facebook</span
+                                    >
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://x.com/Abhi_Hertz">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        style="
+                                            fill: rgba(0, 0, 0, 1);
+                                            transform: ;
+                                            -ms-filter: ;
+                                        "
+                                    >
+                                        <path
+                                            d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809 c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793 c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05 c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032 c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028 c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22 c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"
+                                        ></path>
+                                    </svg>
+                                    <span class="u-screen-reader-text"
+                                        >Twitter</span
+                                    >
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.instagram.com/playinhertz/"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        style="
+                                            fill: rgba(0, 0, 0, 1);
+                                            transform: ;
+                                            -ms-filter: ;
+                                        "
+                                    >
+                                        <path
+                                            d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"
+                                        ></path>
+                                        <circle
+                                            cx="16.806"
+                                            cy="7.207"
+                                            r="1.078"
+                                        ></circle>
+                                        <path
+                                            d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"
+                                        ></path>
+                                    </svg>
+                                    <span class="u-screen-reader-text"
+                                        >Instagram</span
+                                    >
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- end section-footer__social -->
+
+                    <div class="column xl-6 lg-12">
+                        <p class="ss-copyright">
+                            <span>© Copyright AE-Hertz 2024</span>
+                        </p>
+                    </div>
+                </div>
+                <!-- end section-footer__bottom -->
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            style="
+                                fill: rgba(0, 0, 0, 1);
+                                transform: ;
+                                msfilter: ;
+                            "
+                        >
+                            <path
+                                d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A1 1 0 0 0 5 3v18a1 1 0 0 0 .536.886z"
+                            ></path>
+                        </svg>
+                    </a>
+                    <span>Back To Top</span>
+                </div>
+                <!-- end ss-go-top -->
+            </footer>
+            <!-- end s-footer -->
+        </div>
+        <!-- end page-wrap -->
+
+        <!-- Java Script
+    ================================================== -->
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
